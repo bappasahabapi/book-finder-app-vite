@@ -44,7 +44,7 @@ export const Book = ({ book, onFav }) => {
           </button>
           <button
             onClick={() => onFav(id)}
-            className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#DC2954]/[14%] py-1.5 text-[#DC2954] transition-all hover:bg-[#DC2954]/[24%] lg:py-1.5"
+            className={`flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#DC2954]/[14%] py-1.5 text-[#DC2954] transition-all hover:bg-[#DC2954]/[14%] lg:py-1.5 ${isFavorite ? 'bg-red-200': 'bg-slate-50'}`}
           >
             {isFavorite ? (
               <svg
@@ -84,3 +84,5 @@ export const Book = ({ book, onFav }) => {
     </div>
   );
 };
+
+

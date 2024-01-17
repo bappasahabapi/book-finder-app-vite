@@ -7,6 +7,10 @@
 
 # Github Maintain two remote url
 
+##    mulltiple deploy
+
+`npm run push`
+
 - Vercel এ ফ্রি হোস্ট করার জন্য পার্সনাল একাউন্টের প্রাইভেট রিপোজিটরি 
 ## নিচের কমান্ড গুলো ফলো করুন :
 
