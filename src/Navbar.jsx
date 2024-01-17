@@ -1,3 +1,5 @@
+import logo from '/src/assets/lws-logo-en.svg'
+
 export default function Navbar() {
     return (
       <div>
@@ -6,7 +8,7 @@ export default function Navbar() {
             <a href="/">
               <img
                 className="max-w-[100px] md:max-w-[165px]"
-                src="/src/assets/lws-logo-en.svg"
+                src={logo}
                 alt="Lws"
               />
             </a>

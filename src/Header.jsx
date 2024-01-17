@@ -3,6 +3,8 @@ import BooksContainer from "./BooksContainer";
 import Filters from "./Filters";
 import SearchAction from "./SearchAction";
 
+import book from "/src/assets/book.png"
+
 export default function Header() {
   const booksData = [
     {
@@ -11,7 +13,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 620,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: false,
       year: 1996,
     },
@@ -21,7 +23,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 120,
       rating: 5,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: true,
       year: 2000,
     },
@@ -31,7 +33,7 @@ export default function Header() {
       author: "subin",
       price: 220,
       rating: 2,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: false,
       year: 2019,
     },
@@ -41,7 +43,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 620,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: true,
       year: 2017,
     },
@@ -51,7 +53,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 520,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: true,
       year: 2016,
     },
@@ -61,7 +63,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 420,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: false,
       year: 2022,
     },
@@ -71,7 +73,7 @@ export default function Header() {
       author: "Jon Duckett",
       price: 62,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: true,
       year: 2014,
     },
@@ -81,7 +83,7 @@ export default function Header() {
       author: "bappa saha",
       price: 262,
       rating: 4,
-      image: "/src/assets/book.png",
+      image: book,
       isFavorite: false,
       year: 2024,
     },

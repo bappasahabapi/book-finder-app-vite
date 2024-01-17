@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import star from '/src/assets/star.svg'
 export const Book = ({ book, onFav }) => {
   // console.log(book)
   const { id, image, title, rating, author, price, year, isFavorite } = book;
@@ -22,7 +23,7 @@ export const Book = ({ book, onFav }) => {
             {Array.from({ length: book.rating }, (_, index) => (
               <img
                 key={index}
-                src="/src/assets/star.svg"
+                src={star}
                 alt={`Star ${index + 1}`}
               />
             ))}
